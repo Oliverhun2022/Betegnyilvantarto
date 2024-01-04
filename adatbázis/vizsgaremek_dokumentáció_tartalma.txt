@@ -1,0 +1,21 @@
+Dokumentáció tartalma (címsorokat használni kell!)
+	- Fedlap
+	- Bevezetés (Papp Bence)
+	- Felhasználói dokumentáció
+		- Rendszerkövetelmények (Papp Bence)
+		- Telepítés menete (képekkel illusztrálva) (Papp Bence)
+		- Funkciók használatának bemutatása (képekkel illusztrálva) (Papp Bence)
+	- Fejlesztői dokumentáció
+		- Használt csoportmunka eszközök bemutatása (Papp Bence)
+		- Fejlesztéshez használt technológiák, szoftverek 
+		- Adatbázis felépítése
+		- Funkciók működésének, megvalósításának magyarázata
+			Backend adatbázis kapcsolata
+			Regisztráció, bejelentkezés, kijelentkezés
+			+ funkciók megvalósításának bemutatása backend-en és frontend-en egyaránt
+	- Tesztelés (mindkettőnél unit és integrációs)
+		- Backend
+		- Frontend
+		- Terhelés teszt
+	- Továbbfejlesztési lehetőségek
+	- Irodalomjegyzék (milyen könyvekből vannak idézetek, milyen weboldalak kerültek felhasználásra, a weboldalakhoz való hozzáférés pontos dátuma és időpontja is szerepeljen)

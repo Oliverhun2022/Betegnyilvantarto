@@ -1,0 +1,3 @@
+CREATE TABLE páciens_adatai (Neve varchar (20), Születési_dátuma int (15), telefonszáma int (15), lakhely varchar (30),
+lakcím varchar (30), email_cím varchar(15), nemzetisége varchar (10), neme varchar (10), vércsoport varchar (5));
+

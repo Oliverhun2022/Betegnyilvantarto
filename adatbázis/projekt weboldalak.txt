@@ -1,0 +1,40 @@
+A felhasználói dokumentációban használt oldal:
+OfficeTools
+https://officetools.hu/windows-10-telepites-lepesrol-lepesre/ 
+2023.11.23: 08 óra 49 perc
+
+Oracle.com
+https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html
+2023.11.24: 08 óra 15 perc
+
+Wikipedia.org
+https://hu.wikipedia.org/wiki/Trello
+2023.11.24: 08 óra 10 perc
+
+phpmyadmin.net
+https://www.phpmyadmin.net
+2023.11.24: 8 óra 22 perc
+
+Oracle.com
+https://www.oracle.com/mysql/what-is-mysql/
+2023.11.24: 8 óra 32 perc
+
+Simplilearn.com
+https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-nodejs
+2023.11.24: 8 óra 52 perc
+
+DigitalOcean.com
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-22-04
+2023.11.24: 09 óra 05 perc
+
+support.microsoft.com (Rendszerkövetelmény)
+https://support.microsoft.com/hu-hu/windows/a-windows-10-rendszerk%C3%B6vetelm%C3%A9nyei-6d4e9a79-66bf-7950-467c-795cf0386715
+2023.11.24: 12 óra 49 perc
+
+Microsoft.com (funkciók bemutatása) 
+https://www.microsoft.com/hu-hu/windows/compare-windows-11-home-vs-pro-versions
+2023.11.24 13 óra 00 perc
+
+Microsoft.com
+https://support.microsoft.com/hu-hu/windows/windows-rendszer%C5%B1-sz%C3%A1m%C3%ADt%C3%B3g%C3%A9p-biztons%C3%A1gi-ment%C3%A9se-87a81f8a-78fa-456e-b521-ac0560e32338
+2023.11.24 13 óra 10 perc 

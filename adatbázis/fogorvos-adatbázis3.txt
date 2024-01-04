@@ -1,0 +1,10 @@
+CREATE TABLE Fogorvos2 (születési_dátum int (20), fizetés int (15), név varchar (10), nemzetiség varchar(15),
+rendelők_száma int(10));
+
+Insert into Fogorvos3 (1980-03-20, 300000, "dr.Horváth Péter", "magyar", 3);
+Insert into Fogorvos3 (1979-11-19, 250000, "dr. Kovács Dániel", "magyar", 3);
+Insert into Fogorvos3 (1963-02-10, 400000, "dr. Szilágyi George", "magyar-amerikai", 2); 
+Insert into Fogorvos3 (1956-03-23, 320000, "dr. Orbán Balázs", "magyar", 1);
+Insert into Fogorvos3 (1969-10-10, 240000, "dr. Balázs István", "magyar", 3);
+
+CREATE TABLE Látogatások
