@@ -1,0 +1,20 @@
+CREATE TABLE orvosok 
+(id INT, 
+allapot_vizsga ENUM, 
+elso_nev varchar(255),
+utolso_nev varchar(255), 
+mobil int (255), 
+iranyitoszam varchar (255), 
+cim TEXT (255), 
+telefon int (255), 
+egyalkalmas_jelszo INT, 
+letrehoz_datuma DATETIME,
+frissit_datuma DATETIME,
+szerep varchar(255),
+varosId INT));
+
+INSERT INTO orvosok VALUES (08748575, "röntgenvizsgálat", "dr.Bognár", "Virág", 06701340998, 1014, "Hegedűs Gyula utca 33.", 06203131674, 12345, "2023-06-19", "2023-06-26", "góckutatás", "Budapest");
+INSERT INTO orvosok VALUES (12345678, "gyökérkezelés", "dr.Balogh", "Orsolya", 06302106501, 1017, "Szent István körút 18.", 0620220410, 23412, "2023-05-21", "2023-05-28", "fogtömés", "Budapest");
+INSERT INTO orvosok VALUES (00123465, "szájsebészet", "dr.Szabó", "Zoltán", 0620350660, 1030, "Boldog Sándor István körút 1-3.", 0620310200, 98764, "2023-06-21", "2023-06-28", "fogkőeltávolítás", "Szolnok");
+INSERT INTO orvosok VALUES (08345063, "endodontia", "dr.Tóth", "Réka", 06302106501, 1017, "Munkácsy Mihály utca 15.", 0620320195, 64556, "2023-07-20", "2023-07-27", "fogfehérítés", "Pécs");
+INSERT INTO orvosok VALUES (08232242, "fogfehérítés", "dr.Tóbiás", "Dávid", 06302106501, 1017, "Szent István körút 18.", 0620320195, 23412, "2023-04-21", "2023-04-28", "fogpótlás", "Budapest");
