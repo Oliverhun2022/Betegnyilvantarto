@@ -1,0 +1,8 @@
+CREATE TABLE regisztracio (regiszt_ID varchar (10), regisztralo_neve varchar (12), regisztralo_orvosa varchar (15), regisztralo_email_cime varchar (15),
+jelszo varchar(15));
+
+INSERT INTO regisztracio2 ("mbarna12", "Mezőfi Barnabás", "Dr.Kálócz Borbála", "mezofibarna@gmail.com", "hdgag1234"));
+INSERT INTO regisztracio2 ("mariakovacs", "Kovács Mária", "Dr. Balogh István", "mariakovacs@gmail.com", "abcd3221"));
+INSERT INTO regisztracio2 ("gaborlaszlo", "László Gábor", "Dr. Ugrai György", "laszlo.gabor@email.hu", "hgfhj3001"));
+INSERT INTO regisztracio2 ("nagyzoltan", "Nagy Zoltán", "Dr.László Mária", "zoltannagy@gmail.com", "kdjjd200"));
+INSERT INTO regisztracio2 ("zsuzsajanosi", "Jánosi Zsuzsanna", "Dr.Szalai Márta", "férfi", "bcdasd123"));
