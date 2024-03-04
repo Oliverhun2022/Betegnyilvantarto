@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2024. Feb 13. 10:48
+-- Létrehozás ideje: 2024. Már 04. 11:53
 -- Kiszolgáló verziója: 10.4.28-MariaDB
 -- PHP verzió: 8.2.4
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `orvosi_szolgaltatas` (
-  `id` int(11) DEFAULT NULL,
+  `id` int(11) NOT NULL,
   `letrehoz_datum` date DEFAULT NULL,
   `frissites_datum` date DEFAULT NULL,
   `szolgaltatasId` varchar(15) DEFAULT NULL,
@@ -40,11 +40,21 @@ CREATE TABLE `orvosi_szolgaltatas` (
 --
 
 INSERT INTO `orvosi_szolgaltatas` (`id`, `letrehoz_datum`, `frissites_datum`, `szolgaltatasId`, `orvosId`) VALUES
-(1185981, '2023-09-15', '2023-09-22', 'TA098', '00AB1234'),
-(5493826, '2023-08-10', '2023-09-17', 'GB321', '16DC5756'),
-(9140461, '2023-10-13', '2023-10-20', 'NE685', '30D01203'),
-(7654321, '2023-11-09', '2023-11-16', 'PP902', '12CD1740'),
-(6100520, '2023-04-15', '2023-04-22', 'DV001', '01ST9120');
+(1, '2023-09-15', '2023-09-22', 'TA098', '00AB1234'),
+(2, '2023-08-10', '2023-09-17', 'GB321', '16DC5756'),
+(3, '2023-10-13', '2023-10-20', 'NE685', '30D01203'),
+(4, '2023-11-09', '2023-11-16', 'PP902', '12CD1740'),
+(5, '2023-04-15', '2023-04-22', 'DV001', '01ST9120');
+
+--
+-- Indexek a kiírt táblákhoz
+--
+
+--
+-- A tábla indexei `orvosi_szolgaltatas`
+--
+ALTER TABLE `orvosi_szolgaltatas`
+  ADD PRIMARY KEY (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
