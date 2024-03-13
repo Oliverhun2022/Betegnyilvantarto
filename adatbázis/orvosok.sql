@@ -37,7 +37,7 @@ CREATE TABLE `orvosok` (
   `egyalkalmas_jelszo` int(11) DEFAULT NULL,
   `letrehoz_datuma` date DEFAULT NULL,
   `frissit_datuma` date DEFAULT NULL,
-  `varosId` int(11) DEFAULT NULL
+  `varos` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 
 --
