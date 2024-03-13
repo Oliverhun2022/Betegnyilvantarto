@@ -1,7 +1,7 @@
-CREATE TABLE Fogorvos (Fogorvos_ID int (15), Mobiltelefonszám int (20), Neve varchar (30), Email_cím varchar (30), Alkalmazás int(15));
+CREATE TABLE Fogorvos (ID int PRIMARY KEY, mobiltelefonszam int (20), neve varchar (30), Email_cim varchar (30), alkalmazas DATE;
 
-Insert into Fogorvos2 (2344244, 0620200145, "Dr. Kovács István", "kovacsdoktor@gmail.com", 2022-06-20);
-Insert into Fogorvos2 (3432321, 0630250120, "Dr. Kálócz Borbála", "kalocz.borbala@gmail.com", 2021-03-20);
-Insert into Fogorvos2 (7003200, 0647525200, "Dr. Ugrai György", "gyorgyugrai@gmail.com", 2020-07-14);
-Insert into Fogorvos2 (2536277, 0620200145, "Dr. Vajda Antónia Ágota", "vajdaantonia@gmail.com", 2019-05-30);
-Insert into Fogorvos2 (2344244, 0620200145, "Dr. Varga Dániel Balázs", "varga.daniel.balazs@gmail.com", 2021-02-23);
+Insert into Fogorvos2 VALUES (1, 0620200145, "Dr. Kovács István", "kovacsdoktor@gmail.com", 2022-06-20);
+Insert into Fogorvos2 VALUES (2, 0630250120, "Dr. Kálócz Borbála", "kalocz.borbala@gmail.com", 2021-03-20);
+Insert into Fogorvos2 VALUES (3, 0647525200, "Dr. Ugrai György", "gyorgyugrai@gmail.com", 2020-07-14);
+Insert into Fogorvos2 VALUES (4, 0620200145, "Dr. Vajda Antónia Ágota", "vajdaantonia@gmail.com", 2019-05-30);
+Insert into Fogorvos2 VALUES (5, 0620200145, "Dr. Varga Dániel Balázs", "varga.daniel.balazs@gmail.com", 2021-02-23);
