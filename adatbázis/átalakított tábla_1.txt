@@ -1,17 +1,16 @@
 CREATE TABLE fogorvos_osszes(
-    fogorvos_azon INT(8) PRIMARY KEY,
-    Mobiltelefonszam INT(10),
-    Neve VARCHAR(50),
-    Email_cim VARCHAR(50),
-    korzetek_szama INT(3)
+    id INT PRIMARY KEY,
+    mobiltelefonszam INT(10),
+    neve VARCHAR(50),
+    Email_cim VARCHAR(50)
 );
-INSERT INTO fogorvos_ujabb (fogorvos_azon, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES(23440, 0620200145, "Dr. Kovács István", "kovacsdoktor@gmail.com", 2);
-INSERT INTO fogorvos_ujabb (fogorvos_azon, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (34310, 0630250120, "Dr. Kálócz Borbála", "kalocz.borbala@gmail.com", 3);
-INSERT INTO fogorvos_ujabb (fogorvos_azon, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (70032, 0647525200, "Dr. Ugrai György", "gyorgyugrai@gmail.com", 3);
-INSERT INTO fogorvos_ujabb (fogorvos_azon , Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (25362, 0620200145, "Dr. Vajda Antónia Ágota", "vajdaantonia@gmail.com", 4);
-INSERT INTO fogorvos_ujabb (fogorvos_azon, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (23442, 0620200145, "Dr. Varga Dániel Balázs", "varga.daniel.balazs@gmail.com",  2);
-INSERT INTO fogorvos_ujabb (fogorvos_azon, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (20020, 06302205410, "Dr.Horváth Péter", "horvath.peterdr@email.hu", 3);
-INSERT INTO fogorvos_ujabb (fogorvos_ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (12023, 0620322101, "Dr. Kovács Dániel", "drkovacsdaniel@email.hu", 3);
-INSERT INTO fogorvos_ujabb (fogorvos_azon, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (20012, 0630200123, "Dr. Szilágyi George", "szilagyi.george@gmail.com", 2);
-INSERT INTO fogorvos_ujabb (fogorvos_azon, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (20301, 0620756101, "Dr. Orbán Balázs", "dr.orban.balazs@gmail.com", 1);
-INSERT INTO fogorvos_ujabb (fogorvos_azon, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum, korzetek_szama) VALUES (20101, 0630510240, "dr. Balázs István", "balazs.istvandr@gmail.com", 3);
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES(1, 0620200145, "Dr. Kovács István", "kovacsdoktor@gmail.com");
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (2, 0630250120, "Dr. Kálócz Borbála", "kalocz.borbala@gmail.com");
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (3, 0647525200, "Dr. Ugrai György", "gyorgyugrai@gmail.com");
+INSERT INTO fogorvos_ujabb (ID , Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (4, 0620200145, "Dr. Vajda Antónia Ágota", "vajdaantonia@gmail.com");
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (5, 0620200145, "Dr. Varga Dániel Balázs", "varga.daniel.balazs@gmail.com");
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (6, 06302205410, "Dr.Horváth Péter", "horvath.peterdr@email.hu");
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (7, 0620322101, "Dr. Kovács Dániel", "drkovacsdaniel@email.hu");
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (8, 0630200123, "Dr. Szilágyi George", "szilagyi.george@gmail.com");
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (9, 0620756101, "Dr. Orbán Balázs", "dr.orban.balazs@gmail.com");
+INSERT INTO fogorvos_ujabb (ID, Mobiltelefonszam, Neve, Email_cim, szuletesi_datum) VALUES (10, 0630510240, "dr. Balázs István", "balazs.istvandr@gmail.com");
