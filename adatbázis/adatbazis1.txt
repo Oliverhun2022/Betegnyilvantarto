@@ -1,5 +1,10 @@
-CREATE TABLE paciens (ID int PRIMARY KEY , nev varchar (15), eletkor int (10), neme varchar (10),
-szuletesi_datum DATE, mobiltelefon_szama int (10));
+CREATE TABLE paciens (ID int PRIMARY KEY, 
+nev varchar (15), 
+eletkor int (10), 
+neme varchar (10),
+szuletesi_datum DATE, 
+mobiltelefon_szama int (10)
+);
 
 Insert into páciens2 VALUES (1, "Kovács Béla", 45, "férfi", 1978-03-15,  0620765130);
 Insert into páciens2 VALUES (2, "Mezőfi Tamás", 30, "férfi", 1989-02-23, 062093360);
