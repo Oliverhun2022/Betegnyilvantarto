@@ -5,4 +5,4 @@ INSERT INTO regisztracio2 ("mbarna12", "Mezőfi Barnabás", "Dr.Kálócz Borbál
 INSERT INTO regisztracio2 ("mariakovacs", "Kovács Mária", "Dr. Balogh István", "mariakovacs@gmail.com", "abcd3221"));
 INSERT INTO regisztracio2 ("gaborlaszlo", "László Gábor", "Dr. Ugrai György", "laszlo.gabor@email.hu", "hgfhj3001"));
 INSERT INTO regisztracio2 ("nagyzoltan", "Nagy Zoltán", "Dr.László Mária", "zoltannagy@gmail.com", "kdjjd200"));
-INSERT INTO regisztracio2 ("zsuzsajanosi", "Jánosi Zsuzsanna", "Dr.Szalai Márta", "férfi", "bcdasd123"));
+INSERT INTO regisztracio2 ("zsuzsajanosi", "Jánosi Zsuzsanna", "Dr.Szalai Márta", "zsuzsajanosi@gmail.com", "bcdasd123"));
