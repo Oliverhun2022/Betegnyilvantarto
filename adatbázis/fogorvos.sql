@@ -39,7 +39,7 @@ CREATE TABLE `fogorvos` (
 -- A tábla adatainak kiíratása `fogorvos_osszevon`
 --
 
-INSERT INTO `fogorvos` (`fogorvos_azon`, `Mobiltelefonszam`, `Neve`, `Email_cim`, `szuletesi_datum`) VALUES
+INSERT INTO `fogorvos` (`ID`, `mobiltelefonszam`, `neve`, `email_cim`, `szuletesi_datum`) VALUES
 (1, 620322101, 'Dr. Kovács Dániel', 'drkovacsdaniel@email.hu', '1979-11-19'),
 (2, 630200123, 'Dr. Szilágyi George', 'szilagyi.george@gmail.com', '1963-02-10'),
 (3, 2147483647, 'Dr.Horváth Péter', 'horvath.peterdr@email.hu', '1980-03-20'),
