@@ -28,23 +28,22 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `szemelyes_adatok` (
+  `ID` int DEFAULT NULL,
   `TAJ_szam` int(11) DEFAULT NULL,
-  `titulus` varchar(255) DEFAULT NULL,
-  `nev` varchar(255) DEFAULT NULL,
-  `keresztnev` varchar(255) DEFAULT NULL,
-  `szuletesi_ido` datetime DEFAULT NULL,
-  `neme` varchar(255) DEFAULT NULL
+  `nev` varchar(25) DEFAULT NULL,
+  `szuletesi_ido` date DEFAULT NULL,
+  `neme` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
 --
 -- A tábla adatainak kiíratása `szemelyes_adatok`
 --
 
-INSERT INTO `szemelyes_adatok` (`TAJ_szam`, `titulus`, `nev`, `keresztnev`, `szuletesi_ido`, `neme`) VALUES
-(123456789, 'dento-alveoláris sebész', 'dr.Borbáth', 'Csaba', '1986-03-20 00:00:00', 'férfi'),
-(140360650, 'konzerváló fogász', 'dr.Kovács', 'István', '1990-02-20 00:00:00', 'férfi'),
-(130235100, 'dentálhigiénikus', 'dr.Baranyai', 'Orsolya', '1980-04-10 00:00:00', 'nő'),
-(100300250, 'fogszakorvos', 'dr.Dózsa', 'Anita', '1990-10-05 00:00:00', 'nő');
+INSERT INTO `szemelyes_adatok` (`ID`, `TAJ_szam`, `nev`,  `szuletesi_ido`, `neme`) VALUES
+(1, '233200123', 'dr.Borbáth Csaba', '1986-03-20', 'férfi'),
+(2, '120345690', 'dr.Kovács István', '1990-02-20', 'férfi'),
+(3, '210564300', 'dr.Baranyai Orsolya', '1980-04-10', 'nő'),
+(4, '231123456', 'dr.Dózsa Anita', '1990-10-05', 'nő');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
