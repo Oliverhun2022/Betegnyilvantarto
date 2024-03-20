@@ -33,7 +33,6 @@ CREATE TABLE `paciens` (
   `eletkor` int(2) DEFAULT NULL,
   `neme` varchar(6) COLLATE utf8_hungarian_ci DEFAULT NULL,
   `szuletesi_datum` date DEFAULT NULL,
-  `foglalkozas` varchar(10) COLLATE utf8_hungarian_ci NOT NULL,
   `mobiltelefon_szama` int(10) DEFAULT NULL,
   `telefonszama` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
@@ -42,12 +41,12 @@ CREATE TABLE `paciens` (
 -- A tábla adatainak kiíratása `paciens`
 --
 
-INSERT INTO `paciens` (`ID`, `nev`, `eletkor`, `neme`, `szuletesi_datum`, `foglalkozas`, `mobiltelefon_szama`, `telefonszama`) VALUES
-(1300528, 'Mezőfi Tamás', 30, 'férfi', '1989-02-23', 'tanuló', 62093360, 670130215),
-(1800309, 'Ferenczi Ist', 65, 'nő', '1960-03-28', 'szakács', 670194650, 620210135),
-(2001510, 'Petőfi Sándo', 40, 'férfi', '1979-04-28', 'író', 2147483647, 2147483647),
-(2345610, 'Kovács Béla', 45, 'férfi', '1978-03-15', 'asztalos', 620765130, 630158630),
-(4501560, 'Kováts Mátyá', 30, 'férfi', '1976-05-30', 'festő', 2147483647, 630110900);
+INSERT INTO `paciens` (`ID`, `nev`, `eletkor`, `neme`, `szuletesi_datum`, `telefonszama`) VALUES
+(1300528, 'Mezőfi Tamás', 30, 'férfi', '1989-02-23',  62093360),
+(1800309, 'Ferenczi Ist', 65, 'nő', '1960-03-28', 670194650),
+(2001510, 'Petőfi Sándo', 40, 'férfi', '1979-04-28',  2147483647),
+(2345610, 'Kovács Béla', 45, 'férfi', '1978-03-15',  620765130),
+(4501560, 'Kováts Mátyá', 30, 'férfi', '1976-05-30', 2147483647);
 
 --
 -- Indexek a kiírt táblákhoz
