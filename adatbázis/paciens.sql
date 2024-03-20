@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `paciens` (
   `ID` int(9) NOT NULL,
-  `nev` varchar(12) COLLATE utf8_hungarian_ci NOT NULL,
+  `nev` varchar(20) COLLATE utf8_hungarian_ci NOT NULL,
   `eletkor` int(2) DEFAULT NULL,
   `neme` varchar(6) COLLATE utf8_hungarian_ci DEFAULT NULL,
   `szuletesi_datum` date DEFAULT NULL,
@@ -43,10 +43,10 @@ CREATE TABLE `paciens` (
 
 INSERT INTO `paciens` (`ID`, `nev`, `eletkor`, `neme`, `szuletesi_datum`, `telefonszama`) VALUES
 (1300528, 'Mezőfi Tamás', 30, 'férfi', '1989-02-23',  62093360),
-(1800309, 'Ferenczi Ist', 65, 'nő', '1960-03-28', 670194650),
-(2001510, 'Petőfi Sándo', 40, 'férfi', '1979-04-28',  2147483647),
+(1800309, 'Ferenczi Istvánné', 65, 'nő', '1960-03-28', 670194650),
+(2001510, 'Petőfi Sándor', 40, 'férfi', '1979-04-28',  2147483647),
 (2345610, 'Kovács Béla', 45, 'férfi', '1978-03-15',  620765130),
-(4501560, 'Kováts Mátyá', 30, 'férfi', '1976-05-30', 2147483647);
+(4501560, 'Kováts Mátyás', 30, 'férfi', '1976-05-30', 2147483647);
 
 --
 -- Indexek a kiírt táblákhoz
