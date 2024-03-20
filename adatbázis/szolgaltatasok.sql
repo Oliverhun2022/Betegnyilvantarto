@@ -38,7 +38,7 @@ CREATE TABLE `szolgaltatasok` (
 -- A tábla adatainak kiíratása `szolgaltatasok`
 --
 
-INSERT INTO `szolgaltatasok` (`id`, `kezeles`, `letrehozas_datum`, `frissites_datum`) VALUES
+INSERT INTO `szolgaltatasok` (`id`, `kezeles`, `hozzadas_datuma`) VALUES
 (1, 'halitózis', '2024-02-10', '2024-02-13'),
 (2, 'foglazulás', '2024-01-17', '2024-01-22'),
 (3, 'fogvesztés', '2024-01-23', '2024-01-26'),
