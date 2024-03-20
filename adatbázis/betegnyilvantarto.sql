@@ -31,7 +31,7 @@ CREATE TABLE `betegnyilvantarto` (
   `ID` int(11) NOT NULL,
   `felhasznalonev` varchar(15) DEFAULT NULL,
   `regisztralo_neve` varchar(20) DEFAULT NULL,
-  `regisztralo_orvosa` varchar(15) DEFAULT NULL,
+  `regisztralo_orvosa` varchar(30) DEFAULT NULL,
   `regisztralo_email_cime` varchar(25) DEFAULT NULL,
   `jelszo` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
@@ -41,9 +41,9 @@ CREATE TABLE `betegnyilvantarto` (
 --
 
 INSERT INTO `betegnyilvantarto` (`ID`, `felhasznalonev`, `regisztralo_neve`, `regisztralo_orvosa`, `regisztralo_email_cime`, `jelszo`) VALUES
-(1, 'mbarna12', 'Mezőfi Barnabás', 'Dr.Kálócz Borbá', 'mezofibarna@gmail.com', 'hdgag1234'),
-(2, 'mariakovacs', 'Kovács Mária', 'Dr. Balogh Istv', 'mariakovacs@gmail.com', 'abcd3221'),
-(3, 'gaborlaszlo', 'László Gábor', 'Dr. Ugrai Györg', 'laszlo.gabor@email.hu', 'hgfhj3001'),
+(1, 'mbarna12', 'Mezőfi Barnabás', 'Dr.Kálócz Borbála', 'mezofibarna@gmail.com', 'hdgag1234'),
+(2, 'mariakovacs', 'Kovács Mária', 'Dr. Balogh István', 'mariakovacs@gmail.com', 'abcd3221'),
+(3, 'gaborlaszlo', 'László Gábor', 'Dr. Ugrai György', 'laszlo.gabor@email.hu', 'hgfhj3001'),
 (4, 'nagyzoltan', 'Nagy Zoltán', 'Dr.László Mária', 'zoltannagy@gmail.com', 'kdjjd200'),
 (5, 'zsuzsajanosi', 'Jánosi Zsuzsanna', 'Dr.Szalai Márta', 'zsuzsajanosi@gmail.com', 'bcdasd123');
 
