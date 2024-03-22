@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `beteg_adatai` (
-  `ID` int(11) NOT NULL,
+  `beteg_adatai_ID` int(11) NOT NULL,
   `nev` varchar(15) DEFAULT NULL,
   `eletkor` int(10) DEFAULT NULL,
   `neme` varchar(10) DEFAULT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE `beteg_adatai` (
 -- A tábla adatainak kiíratása `beteg_adatai`
 --
 
-INSERT INTO `beteg_adatai` (`ID`, `nev`, `eletkor`, `neme`, `szuletesi_datum`, `telefonszama`) VALUES
+INSERT INTO `beteg_adatai` (`beteg_adatai_ID`, `nev`, `eletkor`, `neme`, `szuletesi_datum`, `telefonszama`) VALUES
 (1, 'Kovács Béla', 45, 'férfi', '1978-03-15', 630158630),
 (2, 'Mezőfi Tamás', 30, 'férfi', '1989-02-23', 670130215),
 (3, 'Ferenczi István', 65, 'férfi', '1960-03-28', 620210135),
