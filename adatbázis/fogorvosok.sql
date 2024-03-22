@@ -40,11 +40,11 @@ CREATE TABLE `fogorvosok` (
 --
 
 INSERT INTO `fogorvosok` (`ID`, `mobiltelefonszam`, `neve`, `email_cim`, `alkalmazas`) VALUES
-(1, 620200145, 'Dr. Kovács István', 'kovacsdoktor@gmail.com', '2022-06-20'),
-(2, 630250120, 'Dr. Kálócz Borbála', 'kalocz.borbala@gmail.com', '2021-03-20'),
-(3, 647525200, 'Dr. Ugrai György', 'gyorgyugrai@gmail.com', '2020-07-14'),
-(4, 620200145, 'Dr. Vajda Antónia Ágota', 'vajdaantonia@gmail.com', '2019-05-30'),
-(5, 620200145, 'Dr. Varga Dániel Balázs', 'varga.daniel.balazs@gmail.com', '2021-02-23');
+(1, 620200145, 'Dr. Kovács István', 'kovacsdoktor@gmail.com', '2024-06-20'),
+(2, 630250120, 'Dr. Kálócz Borbála', 'kalocz.borbala@gmail.com', '2024-03-20'),
+(3, 647525200, 'Dr. Ugrai György', 'gyorgyugrai@gmail.com', '2024-07-14'),
+(4, 620200145, 'Dr. Vajda Antónia Ágota', 'vajdaantonia@gmail.com', '2024-05-30'),
+(5, 620200145, 'Dr. Varga Dániel Balázs', 'varga.daniel.balazs@gmail.com', '2024-02-23');
 
 --
 -- Indexek a kiírt táblákhoz
