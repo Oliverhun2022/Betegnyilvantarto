@@ -43,7 +43,7 @@ CREATE TABLE `beteg_adatai` (
 INSERT INTO `beteg_adatai` (`id`, `nev`, `eletkor`, `neme`, `szuletesi_datum`, `telefonszama`) VALUES
 (1, 'Kovács Béla', 45, 'férfi', '1978-03-15', 620765130),
 (2, 'Mezőfi Tamás', 30, 'férfi', '1989-02-23', 62093360),
-(3, 'Ferenczi Istvánné', 65, 'nő', '1960-03-28', 670194650),
+(3, 'Ferenczi István', 65, 'férfi', '1960-03-28', 670194650),
 (4, 'Petőfi Sándor', 40, 'férfi', '1979-04-28', 2147483647),
 (5, 'Kováts Mátyás', 30, 'férfi', '1976-05-30', 620474836);
 
