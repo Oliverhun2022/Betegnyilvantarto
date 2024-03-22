@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `kezelesek` (
   `id` int(11) NOT NULL,
-  `tipusa` varchar(15) COLLATE utf8mb4_hungarian_ci DEFAULT NULL,
+  `tipusa` varchar(30) COLLATE utf8mb4_hungarian_ci DEFAULT NULL,
   `datuma` date DEFAULT NULL,
   `kovetkezo_kezeles_datum` date DEFAULT NULL,
   `fizetesi_dij` int(10) DEFAULT NULL
@@ -40,12 +40,15 @@ CREATE TABLE `kezelesek` (
 --
 
 INSERT INTO `kezelesek` (`id`, `tipusa`, `datuma`, `kovetkezo_kezeles_datum`, `fizetesi_dij`) VALUES
-(1, 'gyökérkezelés', '2021-06-22', '0000-00-00', 140000),
-(2, 'foghúzás', '2021-07-12', '2021-07-23', 105000),
-(3, 'fogkőeltávolítá', '2022-09-10', '2022-09-20', 100000),
-(4, 'fogtömítés', '2022-03-15', '2022-04-15', 98000),
-(5, 'fogfehérítés', '2023-05-10', '2023-05-30', 120000);
-
+(1, 'gyökérkezelés', '2024-06-22', '2024-06-29', 140000),
+(2, 'foghúzás', '2024-07-12', '2024-07-23', 105000),
+(3, 'fogkőeltávolítás', '2024-09-10', '2024-09-20', 100000),
+(4, 'fogtömítés', '2024-03-15', '2024-04-15', 98000),
+(5, 'fogfehérítés', '2024-05-10', '2024-05-30', 120000);
+(6, 'fogínykezelés', '2024-08-10', '2024-08-19', 60000);
+(7, 'altatásos fogászat', '2024-06-10', '2024-06-30', 100000);
+(8, 'fogpótlás', '2024-07-10', '2024-07-17', 106000);
+(9, 'fogszabályozás', '2024-05-18', '2024-05-27', 95000);
 --
 -- Indexek a kiírt táblákhoz
 --
