@@ -29,7 +29,6 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `bejelentkezes` (
   `id` int(11) NOT NULL,
-  `felhasznalonev` varchar(20) DEFAULT NULL,
   `jelszo` varchar(15) DEFAULT NULL,
   `email_cim` varchar(30) DEFAULT NULL,
   `nev` varchar(20) DEFAULT NULL
@@ -40,11 +39,11 @@ CREATE TABLE `bejelentkezes` (
 --
 
 INSERT INTO `bejelentkezes` (`id`, `felhasznalonev`, `jelszo`, `email_cim`, `nev`) VALUES
-(1, 'drpappkaroly123', 'abcd1234', 'drpappkaroly@email.hu', 'dr.Papp Károly'),
-(2, 'drkovacsistvan2002', 'zemplen2004', 'dristvankovacsdr04@gmail.com', 'dr.Kovács István'),
-(3, 'drtothgabor120', 'kiskutya125', 'drtoth.gabor@email.hu', 'dr.Tóth Gábor'),
-(4, 'drlaszloerdei20', 'csokolade120', 'drerdeilaszlo12@email.hu', 'dr.Erdei László'),
-(5, 'drpeterfekete200', 'focilabda2002', 'drpappkaroly@gmail.com', 'dr.Fekete Péter');
+(1, 'abcd1234', 'drpappkaroly@email.hu', 'dr.Papp Károly'),
+(2, 'zemplen2004', 'dristvankovacsdr04@gmail.com', 'dr.Kovács István'),
+(3, 'kiskutya125', 'drtoth.gabor@email.hu', 'dr.Tóth Gábor'),
+(4, 'csokolade120', 'drerdeilaszlo12@email.hu', 'dr.Erdei László'),
+(5, 'focilabda2002', 'drpappkaroly@gmail.com', 'dr.Fekete Péter');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
