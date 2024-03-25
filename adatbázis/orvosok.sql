@@ -29,8 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `orvosok` (
   `id` int(11) NOT NULL,
-  `elso_nev` varchar(15) DEFAULT NULL,
-  `utolso_nev` varchar(15) DEFAULT NULL,
+  `nev` varchar(15) DEFAULT NULL,
   `iranyitoszam` int(11) DEFAULT NULL,
   `cim` text DEFAULT NULL,
   `telefon` int(11) DEFAULT NULL,
