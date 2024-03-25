@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `betegnyilvantarto` (
   `ID` int(11) NOT NULL,
-  `felhasznalonev` varchar(15) DEFAULT NULL,
+  `felhasznalonev` varchar(20) DEFAULT NULL,
   `regisztralo_orvos` varchar(30) DEFAULT NULL,
   `regisztralo_email_cime` varchar(25) DEFAULT NULL,
   `jelszo` varchar(15) DEFAULT NULL
@@ -40,7 +40,7 @@ CREATE TABLE `betegnyilvantarto` (
 --
 
 INSERT INTO `betegnyilvantarto` (`ID`, `felhasznalonev`, `regisztralo_orvos`, `regisztralo_email_cime`, `jelszo`) VALUES
-(1, 'borbalakaloczid', 'Dr.Kálócz Borbála', 'kaloczi.borbala@gmail.com', 'hdgag1234'),
+(1, 'borbalakaloczidr', 'Dr.Kálócz Borbála', 'kaloczi.borbala@gmail.com', 'hdgag1234'),
 (2, 'baloghistvandr', 'Dr. Balogh István', 'drbaloghistvan@gmail.com', 'abcd3221'),
 (3, 'ugraigyorgydr', 'Dr. Ugrai György', 'drugraigyorgy@email.hu', 'hgfhj3001'),
 (4, 'marialaszlo', 'Dr.László Mária', 'laszlomariadr@gmail.com', 'kdjjd200'),
