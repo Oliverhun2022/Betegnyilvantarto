@@ -52,8 +52,9 @@ button:hover {
     background-color: #0056b3;
 }
 
+
 table {
-    width: 100%;
+    width: 150%;
     border-collapse: collapse;
 }
 
@@ -70,6 +71,11 @@ th {
 
 td:last-child {
     text-align: center;
+}
+#patientTable {
+    margin-left: -25%; /* A táblázat 25%-kal balra tolása */
+    text-align: left; /* A tartalom balra igazítása */
+    width: 150%; /* Teljes szélesség */
 }
 
 /* .dark-mode {
