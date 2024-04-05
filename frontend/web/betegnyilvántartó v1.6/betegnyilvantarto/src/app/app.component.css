@@ -15,7 +15,8 @@ h2 {
     margin: 0 auto;
 }
 
-#logout { /* Jobb oldali elhelyezés */
+#logout {
+    /* Jobb oldali elhelyezés */
     text-align: right;
 }
 
@@ -59,7 +60,7 @@ table {
 th,
 td {
     border: 1px solid #ccc;
-    padding: 8px;
+    padding: 0px;
     text-align: left;
 }
 
@@ -71,14 +72,14 @@ td:last-child {
     text-align: center;
 }
 
-.dark-mode {
+/* .dark-mode {
     background-color: #333;
     color: #fff;
     position: fixed; /* Állítsd be a pozíciót fixáltra */
-    bottom: 20px; /* Helyezd el a sötét módot a lap alján */
-    left: 20px; /* Helyezd el a sötét módot a lap bal oldalán */
-}
+/* bottom: 20px; /* Helyezd el a sötét módot a lap alján */
+/* left: 20px; Helyezd el a sötét módot a lap bal oldalán
+} */
 
-.dark-mode button {
+/* .dark-mode button {
     background-color: #555;
-}
+} */
