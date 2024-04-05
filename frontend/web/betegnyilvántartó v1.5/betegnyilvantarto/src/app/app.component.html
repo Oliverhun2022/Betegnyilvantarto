@@ -1,0 +1,57 @@
+<div id="logout">
+    <button onclick="logout()">Kijelentkezés</button>
+</div>
+
+<h1>Fogorvosi Betegnyilvántartó</h1>
+
+<div id="app">
+    <h2>Új beteg hozzáadása</h2>
+    <form id="patientForm">
+        <label for="name">Név:</label>
+        <input type="text" placeholder="A Beteg nevét adja meg." id="name" required><br><br>
+        <label for="dob">Születési dátum:</label>
+        <input type="date" id="dob" required><br><br>
+        <label for="contact">Elérhetőség:</label>
+        <input type="text" placeholder="Csak Email címet adjon meg." id="contact" required><br><br>
+        <label for="issue">Panasz, probléma:</label>
+        <textarea id="issue" placeholder="Írja le a beteg problémáját." maxlength="100" required></textarea><br><br>
+        <label for="motherName">Anyja neve:</label>
+        <input type="text" id="motherName" placeholder="Anyja leánykori nevét adja meg." required><br><br>
+
+
+        <label for="address">Lakcím:</label>
+        <input type="text" placeholder="Irányítószám, település, közterület, házszám." id="address" maxlength="100"
+            required><br><br>
+        <label for="taj">Taj szám:</label>
+        <input type="text" placeholder="Taj számnak csak a számát adja meg" id="taj" pattern="[0-9]+"
+            title="Csak számokat adjon meg!" required><br><br>
+
+        <label for="gender">Neme:</label>
+        <select id="gender" required>
+            <option value="Férfi">Férfi</option>
+            <option value="Nő">Nő</option>
+        </select><br><br>
+        <button type="submit">Hozzáadás</button>
+    </form>
+
+
+
+    <h2>Betegnyilvántartás</h2>
+    <table id="patientTable">
+        <thead>
+            <tr>
+                <th>Név</th>
+                <th>Születési dátum</th>
+                <th>Elérhetőség</th>
+                <th>Panasz, probléma</th>
+                <th>Anyja neve</th>
+                <th>Lakcím</th>
+                <th>Taj szám</th>
+                <th>Nem</th>
+                <th>Műveletek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Táblázat töltődik be JavaScript segítségével -->
+        </tbody>
+    </table>
